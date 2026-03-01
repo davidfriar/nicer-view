@@ -1,4 +1,4 @@
-name: "zmk-shield-nicer-view"
+name: "zmk-shield-nicer_view"
 build:
   settings:
     board_root: .
