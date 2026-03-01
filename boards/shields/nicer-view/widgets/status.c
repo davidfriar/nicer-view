@@ -197,7 +197,8 @@ static void draw_bottom(lv_obj_t *widget, const struct status_state *state) {
 
         canvas_draw_text(canvas, 0, 5, 68, &label_dsc, text);
     } else {
-        canvas_draw_text(canvas, 0, 5, 68, &label_dsc, state->layer_label);
+        canvas_draw_text(canvas, 0, 5, 68, &label_dsc, "modified");
+        // canvas_draw_text(canvas, 0, 5, 68, &label_dsc, state->layer_label);
     }
 
     // Rotate canvas
